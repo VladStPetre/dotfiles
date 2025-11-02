@@ -56,3 +56,5 @@ export N8N_PROTOCOL=redacted
 export WEBHOOK_URL=redacted
 export N8N_SECURE_COOKIE=redacted
 export NODE_ENV=redacted
+export POSTGRES_USER=redacted
+export POSTGRES_DB=redacted
