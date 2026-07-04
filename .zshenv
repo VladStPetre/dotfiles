@@ -1,6 +1,6 @@
-##### Env vars ####
-export M2_HOME=$HOME/utils/apache-maven-3.9.11
-export JAVA_HOME=$HOME/.jdks/corretto-17.0.16
+##### Java + Maven setup #####
+export JAVA_HOME=$HOME/.jdks/corretto-25.0.3
+export M2_HOME=$HOME/tools/apache-maven-3.9.16
 
 
 # set PATH so it includes user's private bin if it exists
@@ -27,8 +27,9 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-alias mvni='maven clean install'
-alias mvn='maven clean package'
+alias mvni='mvn clean install'
+
+alias syncstart='sudo systemctl start syncthing@$USER.service'
 
 
 
